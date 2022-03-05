@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>Pasteles LaunchX</title>
+	
+
+	</head>
+	<style>
+		
+		h1, h2, h3, h4, h5, h6 {
+		color: #222;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		letter-spacing: 1px; 
+		}
+
+		a {
+		color: #0000FF;
+		font-size: 19px; 
+		}
+
+		p, tr, td, form {
+		color: #222;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		font-size: 15px; 
+		}
+		
+		.navbar  {
+		font-size: 1.05rem;
+		font-weight: 500;
+		padding: 0.65rem 1.5rem;
+		margin-left: 1px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px; 
+		}
+		.navbar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+
+	</style>
+		<body>
+			<header>
+				<nav class="navbar">
+				<ul>
+				<a href="index.html"><img src="PastelesLaunchX.png" width="232" height="196" alt="header-logo"></a>
+				<li><a href="index.html">Cliente</a> </li>
+				<li><a href="pastelero.html">Pastelero</a></li>
+				</ul>
+			</nav>
+			</header>
+
+		
+		<h2>Pasteles LanuchX</h2>	
+
+		<h3>Nuestros Pasteles:</h3>
+
+		 <table class="default">
+			<tr>
+			  <td>Nombre:</td>
+			  <td>Precio</td>
+			</tr>
+			<tr>
+			  <td>Fresa Cosmico...</td>
+			  <td>$400 MX</td>
+			</tr>
+			<tr>
+			  <td>Chocolate Galactico...</td>
+			  <td>$400 MX</td>
+			</tr>
+			<tr>
+			   <td>Vailla Espacial...</td>
+		       <td>$400 MX</td>
+			</tr>
+			<tr>
+				<td>Napolitano Interestelar...</td>
+				<td>$400 MX</td>
+			 </tr>
+		  
+		  </table>
+
+		  <hr>
+		  <h3>Nuestros Adornos:</h3>
+			 <table class="default">
+				<tr>
+				  <td>Nombre:</td>
+				  <td>Precio</td>
+				</tr>
+				<tr>
+				  <td>Cookies...</td>
+				  <td>$80 MX</td>
+				</tr>
+				<tr>
+				  <td>Fruta (500g)...</td>
+				  <td>$100 MX</td>
+				</tr>
+				<tr>
+				   <td>Imagen personalizada...</td>
+				   <td>$100 MX</td>
+				</tr>
+				<tr>
+					<td>Vela Nave espacial LaunchX...</td>
+					<td>$80 MX</td>
+				 </tr>
+			  
+			  </table>
+
+			  <img class="img-fluid" src="PastelesLaunchX.png" alt="content-image" />
+
+						 	
+			  <h2>Personaliza tu Pastel!</h2>	
+			  <p>Selecciona que sabores te gustaria combinar para tu pastel!</p> 
+			  <input type="checkbox">Fresa Cosmico</input><br>
+			  <input type="checkbox">Chocolate Galactico</input><br>
+			  <input type="checkbox">Vailla Espacial</input><br>
+			  <input type="checkbox">Napolitano Interestelar</input><br>
+
+
+			  <hr>
+	 	
+			  <h2>Combina Adornos! </h2>	
+			  <p>Selecciona que adornos quieres agregar a tu pastel!</p> 
+			  <input type="checkbox">Cookies</input><br>
+			  <input type="checkbox">Fruta (500g)</input><br>
+			  <input type="checkbox">Imagen personalizada</input><br>
+			  <input type="checkbox">Vela Nave espacial LaunchX</input><br>
+
+			  <hr>
+		
+			  <h2>Quieres realizar un pedido?</h2>	
+			  <p>Dejanos tu informacion en el formulario y realizaremos tu pastel!</p>
+			  <form action="formulario.js">
+				 <p>Nombre:</p> 
+				<input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+				<br>
+				<p>Teléfono:</p>
+				<input type="number" id="Teléfono" name="Teléfono" placeholder="Teléfono">
+				<br>
+				<p>Correo Electrónico:</p>
+				<input type="email" id="Correo Electrónico" name="Correo Electrónico" placeholder="Correo Electrónico">
+				<br>
+				<p>Descripcion detalla del pastel personalizado:</p>
+				<textarea maxlength="1000" placeholder="Maximo 1000 caracteres"></textarea>
+				<br>
+				<p>Selecciona que sabores te gustaria combinar para tu pastel!</p> 
+				<input type="radio">Fresa Cosmico</input><br>
+				<input type="radio">Chocolate Galactico</input><br>
+				<input type="radio">Vailla Espacial</input><br>
+				<input type="radio">Napolitano Interestelar</input><br>
+				<br>
+				<p>Selecciona que adornos quieres agregar a tu pastel!</p> 
+				<input type="radio">Cookies</input><br>
+				<input type="radio">Fruta (500g)</input><br>
+				<input type="radio">Imagen personalizada</input><br>
+				<input type="radio">Vela Nave espacial LaunchX</input><br>
+
+				<br><br>
+				<input type="submit" value="Enviar datos">
+			  </form>
+			  <hr>
+
+			<h3>Visitanos o ponte en contacto!:</h3>	
+
+
+			<h4>Dirección:</h4>
+			<p>Tabasco, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX</p>
+						
+			<h4>Teléfono:</h4>
+			<p>551234567</p>
+	
+			<h4>Horarios de Atención:</h4>
+			<p>9am a 7pm de L - V </p>
+			<p>9am a 4pm de Fines de semana </p>
+
+
+
+		<footer>									
+		</footer>	
+	</body>
+</html>	
